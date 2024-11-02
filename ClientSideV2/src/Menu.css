@@ -1,0 +1,61 @@
+.top-menu {
+  width: 95%;
+  height: 80px;
+  background-color: #214160;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+.menu-link {
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family:fantasy;
+  font-size: 20px;
+}
+
+.menu-link:hover {
+  color: #1abc9c;
+}
+
+.logoutButton {
+  color: white; /* Text color */
+  font-family:fantasy;
+  font-size: 14px;
+  background-color: rgb(215, 57, 57); /* Button background color */
+  text-decoration: none;
+  padding: 2px ; /* Padding for button-like appearance */
+  border: 1px solid rgb(215, 57, 57); /* Border with the same color as background */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for color change */
+  cursor: pointer; /* Pointer cursor on hover */
+  display: inline-block; /* Ensure it behaves like a button */
+
+}
+
+.logoutButton:hover {
+  background-color: darkred; /* Background color change on mouseover */
+}
+
+.logoutButton:active {
+  background-color: maroon; /* Background color change on click */
+}
+

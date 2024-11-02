@@ -1,0 +1,25 @@
+.home-container {
+  padding: 80px 20px; /* Adjust padding to account for the fixed top menu */
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.home-container p {
+  font-size: 25px;
+  color: #2c3e50;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+  width: 400px; /* הגדר רוחב */
+  height: auto; /* שמור על יחס הגובה-רוחב */
+  max-width: 50%; /* שמור על רספונסיביות */
+margin-top: 0;
+}
