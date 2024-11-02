@@ -11,7 +11,7 @@ User profile management
 Real-time file upload tracking
 Document and image storage using MongoDB GridFS
 
-Tech Stack
+**Tech Stack**
 Frontend
 
 React
@@ -24,7 +24,7 @@ MongoDB with GridFS
 JWT Authentication
 OpenAI API
 
-Prerequisites
+**Prerequisites**
 MongoDB Setup
 
 Download and install MongoDB Compass
@@ -50,7 +50,6 @@ Generate a new app password
 Use this password in your .env file
 
 
-
 OpenAI API Key
 
 Visit OpenAI Platform
@@ -69,35 +68,33 @@ Update the image_path variable in the upload function:
 Windows: image_path = "C:\\Users\\YourName\\ImageScholar\\images"
 Mac/Linux: image_path = "/Users/YourName/ImageScholar/images"
 
-Installation and Setup
-Backend Setup
+**Installation and Setup
+Backend Setup**
 
 Clone the repository
 Create and activate virtual environment:
-
-bashCopypython -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 Install dependencies:
 
 Create .env file with required environment variables
 
-Frontend Setup
+**Frontend Setup**
 
 Navigate to frontend directory
 Install dependencies:
 
 npm install
-Running the Application
+
+**Running the Application**
 python app.py
 The server will start at http://localhost:5000
 
-Frontend
+**Frontend**
 npm start
 The application will start at http://localhost:3000
 After the initial start, use npm run dev
 
-Environment Variables Template
+**Environment Variables Template**
 Create a .env file with the following structure:
 EMAIL_SERVER=smtp.gmail.com
 EMAIL_PORT=587
@@ -106,7 +103,7 @@ EMAIL_PASSWORD=your-app-specific-password
 FRONTEND_URL=http://localhost:3000
 OPENAI_API_KEY=your-openai-api-key
 
-Important Notes
+**Important Notes**
 Make sure MongoDB is running before starting the application
 Ensure all environmental variables are properly set
 The image storage directory must have write permissions
